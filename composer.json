@@ -1,0 +1,11 @@
+{
+    "name": "maximaster/bitrix-symfony-mailer",
+    "require": {
+        "maximaster/file-mailer-transport": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixSymfonyMailer\\": "src/"
+        }
+    }
+}
