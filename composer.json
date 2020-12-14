@@ -1,11 +1,20 @@
 {
     "name": "maximaster/bitrix-symfony-mailer",
+    "minimum-stability": "dev",
     "require": {
-        "maximaster/file-mailer-transport": "*"
+        "maximaster/file-mailer-transport": "*",
+        "maximaster/self-registry": "*",
+        "php-mime-mail-parser/php-mime-mail-parser": "^6.0",
+        "symfony/mailer": "4.*",
+        "symfony/mime": "5.*"
     },
     "autoload": {
         "psr-4": {
             "Maximaster\\BitrixSymfonyMailer\\": "src/"
         }
-    }
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "https://satis.develop.maximaster.ru/"
+    }]
 }
