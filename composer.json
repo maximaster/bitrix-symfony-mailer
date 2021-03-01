@@ -1,9 +1,10 @@
 {
     "name": "maximaster/bitrix-symfony-mailer",
+    "description": "Позволяет использовать symfony/mailer транспорты для отправки почты в Битрикс",
     "minimum-stability": "dev",
     "require": {
-        "maximaster/file-mailer-transport": "*",
-        "maximaster/self-registry": "*",
+        "maximaster/file-mailer-transport": "^0.0.1",
+        "maximaster/self-registry": "^0.0.1",
         "php-mime-mail-parser/php-mime-mail-parser": "^6.0",
         "symfony/mailer": "4.*",
         "symfony/mime": "5.*"
@@ -12,9 +13,5 @@
         "psr-4": {
             "Maximaster\\BitrixSymfonyMailer\\": "src/"
         }
-    },
-    "repositories": [{
-        "type": "composer",
-        "url": "https://satis.develop.maximaster.ru/"
-    }]
+    }
 }
